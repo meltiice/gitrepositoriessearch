@@ -1,0 +1,99 @@
+* {
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+}
+h1 {
+   font-size: 24px;
+   font-weight: 500;
+   width: 60%;
+   margin: 5px auto;
+   text-align: center;
+}
+.main {
+   width: 60%;
+   margin: 10px auto 0;
+   background-color: white;
+   border-radius: 5px;
+}
+.search-line {
+   width: 100%;
+}
+.search-input {
+   display: block;
+   width: 100%;
+   padding: 5px 10px;
+   border-radius: 5px;
+   border: 1px solid rgb(212, 212, 212);
+}
+.search-input:focus {
+   border-color: blueviolet;
+}
+.repos {
+   list-style: none;
+   margin: 0;
+   padding: 5px;
+}
+
+.repo-button {
+   width: 100%;
+   border-radius: 5px;
+   text-align: left;
+   padding: 5px;
+   border: none;
+   font: inherit;
+   color: inherit;
+   background-color: transparent;
+   list-style: none;
+   cursor: pointer;
+}
+.repo-button:hover{
+   background-color: blueviolet;
+   color: aliceblue;
+}
+.repo-button:active {
+   background-color: rgb(103, 32, 168);
+}
+.favs-list {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding-left: 10px;
+   justify-content: flex-start;
+}
+.fav-elem {
+   list-style: none;
+   padding: 10px;
+   border: 1px solid rgb(224, 224, 224);
+   box-shadow: 0 2px 5px 0 rgba(174, 174, 174, 0.226);
+   border-radius: 5px;
+   width: calc(50% - 5px);
+   height: 130px;
+   
+}
+.fav-name, .fav-author, .fav-stars, .fav-button {
+   height: 25%;
+}
+.fav-button {
+   background-color: blueviolet;
+   width: 100%;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+.fav-span {
+   display: inline-block;
+   color: blueviolet;
+   width: 70px;
+}
+.fav-p {
+   margin-left: 10px;
+   overflow: hidden;
+}
+.favs-name {
+   color: blueviolet;
+   font-weight: 600;
+   font-size: 18px;
+}
